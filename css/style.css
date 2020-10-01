@@ -197,6 +197,12 @@ footer .svg-inline--fa:hover {
   .carousel-caption h3 {
     font-size: 1.2rem;
   }
+  .carousel-caption h4 {
+    font-size: 1rem;
+  }
+  .carousel-caption p {
+    font-size: .8rem;
+  }
   .btn-lg {
     font-size: .95rem;
   }
@@ -204,7 +210,7 @@ footer .svg-inline--fa:hover {
 /* Devices under 576px (sm) */
 @media (max-width: 576px) {
   .carousel-caption h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .carousel-caption h2 {
     font-size: 1.4rem;
@@ -212,26 +218,34 @@ footer .svg-inline--fa:hover {
   .carousel-caption h3 {
     font-size: 1rem;
   }
-  .btn-lg {
-    font-size: .85rem;
+  .carousel-caption h4 {
+    font-size: .8rem;
   }
+  .carousel-caption p {
+    font-size: .6rem;
+  }
+  .btn-md {
+    font-size: .85rem;
+   }
   .btn-danger {
     font-size: 70%;
-  }
+   }
   .btn-primary {
     font-size: 70%;
   }
   .fixed-background {
     height: 4rem;
-    min-width: 480px;
-    
+  }
+  #slayde {
+    position: absolute;
+    top: 20%;
   }
   .fixed-background h1 {
     font-size: 1.5rem;
   }
   .fixed-background h3 {
     font-size: 1rem;
-    padding-top: 1;
+    padding: 1;
   }
 }
 
