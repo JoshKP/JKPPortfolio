@@ -48,10 +48,10 @@ body {
 /*============= CAROUSEL =============*/
 
 #carousel {
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .4);
 }
 .carousel-inner {
-  max-height: 40rem!important;
+  max-height: 42rem!important;
 }
 
 /*---Change Carousel Transition Speed --*/
@@ -64,12 +64,12 @@ body {
 /*-- Carousel Content --*/
 .carousel-caption {
   position: absolute;
-  top: 36%;
+  top: 41%;
   transform: translateY(-50%);
   text-transform: uppercase;
 }
 .bg-custom {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .45);
   color: white;
   border-radius: 1rem;
 }
@@ -82,7 +82,7 @@ body {
 }
 .carousel-caption h3 {
   font-size: 2.2rem;
-  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1)
+  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, .6)
 }
 .btn-lg {
   border-radius: 0;
@@ -220,6 +220,18 @@ footer .svg-inline--fa:hover {
   }
   .btn-primary {
     font-size: 70%;
+  }
+  .fixed-background {
+    height: 4rem;
+    min-width: 480px;
+    
+  }
+  .fixed-background h1 {
+    font-size: 1.5rem;
+  }
+  .fixed-background h3 {
+    font-size: 1rem;
+    padding-top: 1;
   }
 }
 
