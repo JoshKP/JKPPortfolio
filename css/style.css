@@ -51,7 +51,7 @@ body {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, .4);
 }
 .carousel-inner {
-  max-height: 42rem!important;
+  max-height: 45rem!important;
 }
 
 /*---Change Carousel Transition Speed --*/
@@ -102,6 +102,10 @@ body {
 .btn-primary:focus {
   background-color: #68a0d2!important;
   border: .05rem solid #68a0d2!important;
+}
+
+#projects {
+  padding-bottom: 10rem;
 }
 
 /*===== FIXED BACKGROUND IMG =====*/
