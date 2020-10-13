@@ -48,10 +48,13 @@ body {
 /*============= CAROUSEL =============*/
 
 #carousel {
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .4);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .4);
+ 
 }
+
 .carousel-inner {
   max-height: 45rem!important;
+  object-fit: contain;
 }
 
 /*---Change Carousel Transition Speed --*/
@@ -62,6 +65,10 @@ body {
 }
 
 /*-- Carousel Content --*/
+.carousel {
+  /* width: 1200px;
+  margin: auto; */
+}
 .carousel-caption {
   position: absolute;
   top: 41%;
@@ -104,7 +111,10 @@ body {
   border: .05rem solid #68a0d2!important;
 }
 
-#projects {
+.projects {
+  
+}
+#listedprojects {
   padding-bottom: 10rem;
 }
 
